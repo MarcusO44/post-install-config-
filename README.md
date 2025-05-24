@@ -31,7 +31,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 <h2>Configuration Steps</h2>
 
 <p>
-https://imgur.com/a/JZ47Gsx
+<img width="794" alt="roles" src="https://github.com/user-attachments/assets/16c8f7ea-7e57-4bfa-b33e-6c5066725fb4" />
 
 </p>
 <p>
