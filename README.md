@@ -6,9 +6,7 @@
 This tutorial outlines the post-install configuration of the open-source help desk ticketing system osTicket.<br />
 
 
-<h2>Video Demonstration</h2>
-
-- ### [YouTube: How To Configure osTicket, post-installation](https://www.youtube.com)
+In this lab I used osTicket through a Azure VM to confgure Roles, Department, Teams, and SLAs. Configuring these elements helps create a structured, efficient, and accountable help desk that scales with your organization and delivers better support.
 
 <h2>Environments and Technologies Used</h2>
 
@@ -25,7 +23,6 @@ This tutorial outlines the post-install configuration of the open-source help de
 - Configure Roles
 - Configure Departments
 - Configure Teams
--Configure Agents
 - Configure SLA
 
 <h2>Configuration Steps</h2>
@@ -35,8 +32,7 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
+In IT systems, roles are predefined sets of permissions assigned to users based on their job functions. Configuring roles involves determining what resources (e.g., files, systems, applications) a user can access and what actions (e.g., read, write, modify, delete) they are allowed to perform.</p>
 <br />
 
 <p>
@@ -44,14 +40,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor i
 
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In an IT help desk environment, departments represent different functional teams, such as Support, Sysadmin, Network, or Security. Configuring departments involves grouping users based on their roles and responsibilities, and assigning specific tasks, workflows, and access rights relevant to their function.
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img width="818" alt="teams" src="https://github.com/user-attachments/assets/a30ee144-3be7-46ec-90ca-fed52181dc2f" />
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+In an IT help desk, teams are smaller, focused groups within a department that handle specific types of tasks or issues. Configuring teams involves grouping users based on their skill level, expertise, or the services they support. Teams can be aligned by tier (Level 1, Level 2, etc.) or by service (Email Team, Network Team, Application Support, etc.).
+
 </p>
 <br />
+<img width="906" alt="sla" src="https://github.com/user-attachments/assets/69792526-78e7-44a7-8aab-ebd1f88f9e71" />
+Configuring SLAs (Service Level Agreements) involves setting rules and time-based targets in your help desk system that define how quickly issues must be responded to and resolved. SLAs can be customized for different teams, issue types, or service categories (e.g., 4 hours for password reset, 24 hours for hardware replacement).
+
