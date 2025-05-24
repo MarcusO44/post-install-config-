@@ -33,6 +33,9 @@ In this lab I used osTicket through a Azure VM to confgure Roles, Department, Te
 </p>
 <p>
 In IT systems, roles are predefined sets of permissions assigned to users based on their job functions. Configuring roles involves determining what resources (e.g., files, systems, applications) a user can access and what actions (e.g., read, write, modify, delete) they are allowed to perform.</p>
+Admin Panel -> Agents -> Roles
+Supreme Admin
+
 <br />
 
 <p>
@@ -41,6 +44,9 @@ In IT systems, roles are predefined sets of permissions assigned to users based 
 </p>
 <p>
 In an IT help desk environment, departments represent different functional teams, such as Support, Sysadmin, Network, or Security. Configuring departments involves grouping users based on their roles and responsibilities, and assigning specific tasks, workflows, and access rights relevant to their function.
+Admin Panel -> Agents -> Departments
+SysAdmins
+
 
 </p>
 <br />
@@ -50,9 +56,18 @@ In an IT help desk environment, departments represent different functional teams
 </p>
 <p>
 In an IT help desk, teams are smaller, focused groups within a department that handle specific types of tasks or issues. Configuring teams involves grouping users based on their skill level, expertise, or the services they support. Teams can be aligned by tier (Level 1, Level 2, etc.) or by service (Email Team, Network Team, Application Support, etc.).
+Admin Panel -> Agents -> Teams (Pull Agents from different Departments)
+Online Banking
+
 
 </p>
 <br />
 <img width="906" alt="sla" src="https://github.com/user-attachments/assets/69792526-78e7-44a7-8aab-ebd1f88f9e71" />
+
 Configuring SLAs (Service Level Agreements) involves setting rules and time-based targets in your help desk system that define how quickly issues must be responded to and resolved. SLAs can be customized for different teams, issue types, or service categories (e.g., 4 hours for password reset, 24 hours for hardware replacement).
+Admin Panel -> Manage -> SLA
+Sev-A (Grace Period: 1 hour, Schedule: 24/7)
+Sev-B (Grace Period: 4 hours, Schedule: 24/7)
+Sev-C (Grace Period: 8 hours, Business Hours)
+
 
